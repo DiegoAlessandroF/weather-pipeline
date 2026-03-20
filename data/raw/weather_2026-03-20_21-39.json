@@ -1,0 +1,67 @@
+[
+  {
+    "city": "Rio de Janeiro",
+    "country": "BR",
+    "collected_at": "2026-03-20T21:39:40.411874",
+    "temp": 24.22,
+    "temp_min": 23.98,
+    "temp_max": 25.12,
+    "humidity": 92,
+    "pressure": 1010,
+    "weather": "nublado",
+    "wind_speed": 3.09,
+    "cloudiness": 75
+  },
+  {
+    "city": "São Paulo",
+    "country": "BR",
+    "collected_at": "2026-03-20T21:39:40.643928",
+    "temp": 22.6,
+    "temp_min": 21.92,
+    "temp_max": 23.03,
+    "humidity": 75,
+    "pressure": 1012,
+    "weather": "nuvens dispersas",
+    "wind_speed": 6.17,
+    "cloudiness": 40
+  },
+  {
+    "city": "Belo Horizonte",
+    "country": "BR",
+    "collected_at": "2026-03-20T21:39:40.876927",
+    "temp": 22.44,
+    "temp_min": 22.44,
+    "temp_max": 22.86,
+    "humidity": 94,
+    "pressure": 1011,
+    "weather": "nublado",
+    "wind_speed": 0,
+    "cloudiness": 75
+  },
+  {
+    "city": "Salvador",
+    "country": "BR",
+    "collected_at": "2026-03-20T21:39:41.107038",
+    "temp": 27.98,
+    "temp_min": 27.98,
+    "temp_max": 27.98,
+    "humidity": 79,
+    "pressure": 1010,
+    "weather": "nublado",
+    "wind_speed": 8.14,
+    "cloudiness": 61
+  },
+  {
+    "city": "Curitiba",
+    "country": "BR",
+    "collected_at": "2026-03-20T21:39:41.336168",
+    "temp": 22.29,
+    "temp_min": 21.21,
+    "temp_max": 23.08,
+    "humidity": 82,
+    "pressure": 1011,
+    "weather": "nuvens dispersas",
+    "wind_speed": 5.66,
+    "cloudiness": 40
+  }
+]
