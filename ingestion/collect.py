@@ -3,6 +3,7 @@ import json
 import os
 from datetime import datetime
 from dotenv import load_dotenv
+from ingestion.load import load_weather_metrics
 
 load_dotenv()
 
@@ -64,6 +65,7 @@ def run():
             print(f"  ✗ Erro em {city}: {e}")
 
     save_locally(records)
+    load_weather_metrics(records)
     print(f"\nTotal coletado: {len(records)}/{len(CITIES)} cidades")
 
 if __name__ == "__main__":
