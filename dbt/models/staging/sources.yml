@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: raw
+    description: "Dados brutos ingeridos pelo Python"
+    tables:
+      - name: weather_metrics
+        description: "Métricas meteorológicas coletadas da OpenWeather API"
+        columns:
+          - name: id
+            tests: [not_null, unique]
+          - name: city
+            tests: [not_null]
+          - name: collected_at
+            tests: [not_null]
